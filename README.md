@@ -25,7 +25,6 @@ An arbiter could:
 Please find more about application's architecture on its dedicated [Architecture Page](Architecture.md).
 
 # Repositories:
-* [Tenancy Deposit HLAs](https://github.com/nvasilev/tenancy-deposit-hla)
 * [Tenancy Deposit Solidity](https://github.com/nvasilev/tenancy-deposit-sol)
 * [Tenancy Deposit Client](https://github.com/nvasilev/tenancy-deposit-client)
 * Tenancy Deposit Server Side
