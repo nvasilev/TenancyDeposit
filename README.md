@@ -21,6 +21,9 @@ A tenant could:
 An arbiter could:
 * rule a deduction amount in favour of the landlord in case of a dispute</li>
 
+# Architecture
+Please find more about application's architecture on its dedicated [Architecture Page](Architecture.md).
+
 # Repositories:
 * [Tenancy Deposit HLAs](https://github.com/nvasilev/tenancy-deposit-hla)
 * [Tenancy Deposit Solidity](https://github.com/nvasilev/tenancy-deposit-sol)
