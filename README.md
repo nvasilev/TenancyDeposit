@@ -1,2 +1,2 @@
 # TenancyDeposit
-Tenancy Deoposit Dapp Main Repository
+Tenancy Deoposit Dapp
