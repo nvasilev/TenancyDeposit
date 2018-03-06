@@ -1,5 +1,5 @@
 # TenancyDeposit
-Welcome to the "Tenancy Deposit" DApp. This distributed app runs on the Etherereum blockchain network and holds a tenancy deposit as Solidity smart contract.
+Welcome to the "Tenancy Deposit" DApp. This distributed app runs on the Etherereum blockchain network and holds a tenancy deposit as a Solidity smart contract.
 
 # Description
 Tenancy Deposit DApp keeps a tenant's deposit in an account separate of landlord's one during the renting period and returns it after the tenancy contract terminates.
