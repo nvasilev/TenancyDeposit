@@ -33,27 +33,27 @@ Please find more about application's architecture at its [Architecture Page](Arc
 
 # Delivery Plan
 ## Stage 1: Contract & Contract Tests & UI (MVP)
-1. Develop Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/contracts/TenancyDeposit.sol)
-2. Develop Truffle Tests for Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/test/TestTenancyDeposit.js)
-3. Develop "Standalone" UI `IN PROGRESS`
+* Develop Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/contracts/TenancyDeposit.sol)
+* Develop Truffle Tests for Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/test/TestTenancyDeposit.js)
+* Develop "Standalone" UI `IN PROGRESS`
 ## Stage 2: Distributed Media Support
-4. Develop Storing Image(s) and Data for Rental Property to IPFS `PENDING`
+* Develop Storing Image(s) and Data for Rental Property to IPFS `PENDING`
 ## Stage 3: Distributed Media Support
-5 Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox)
+* Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox)
 ## Stage 4: Time-based Oracles
-6. Develop Time-based Contract Termination (Oraclize) `PENDING`
+* Develop Time-based Contract Termination (Oraclize) `PENDING`
 ## Stage 5: Security (Server Authentication) and UI Actor Segregation
-7. Improve Error Handling `PENDING`
-8. Develop Sever Part `PENDING`
-9. Integrate Server Part with UI (not "Standalone" anymore) `PENDING`
+* Improve Error Handling `PENDING`
+* Develop Sever Part `PENDING`
+* Integrate Server Part with UI (not "Standalone" anymore) `PENDING`
 ## Stage 6: Server Integration with IPFS
-10. Integrate Server Part with IPFS Storage (step 4) `PENDING`
+* Integrate Server Part with IPFS Storage (step 4) `PENDING`
 ## Stage 7: Multiple Tenants
-11. Introduce Multiple Tenants `PENDING`
+* Introduce Multiple Tenants `PENDING`
 ## Stage 8: Monthly Rent Payment
-12. Introduce Monthly Rent Payment `PENDING`
+* Introduce Monthly Rent Payment `PENDING`
 ## Stage 9: Improving UI
-13. Rewrite UI Using Contemporary Framework (React/Angular?) `PENDING`
+* Rewrite UI Using Contemporary Framework (React/Angular?) `PENDING`
 
 # Future Work
 * Storing Image(s) and Data (JSON) for Rental Property to IPFS
