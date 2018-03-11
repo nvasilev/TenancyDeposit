@@ -37,7 +37,7 @@ Please find more about application's architecture at its [Architecture Page](Arc
 2. Develop Truffle Tests for Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/test/TestTenancyDeposit.js)
 3. Develop "Standalone" UI `IN PROGRESS`
 ## Stage 2: Distributed Media Support
-4. Develop Storing Image(s) and Data for Rental Property at IPFS `PENDING`
+4. Develop Storing Image(s) and Data for Rental Property to IPFS `PENDING`
 ## Stage 3: Time-based Oracles
 5. Develop Time-based Contract Termination (Oraclize) `PENDING`
 ## Stage 4: Security (Server Authentication) and UI Actor Segregation
@@ -54,7 +54,7 @@ Please find more about application's architecture at its [Architecture Page](Arc
 12. Rewrite UI Using Contemporary Framework (React/Angular?) `PENDING`
 
 # Future Work
-* Storing Image(s) and Data (JSON) for Rental Property at IPFS
+* Storing Image(s) and Data (JSON) for Rental Property to IPFS
 * Time-based Contract Termination (Oraclize)
 * Develop Sever Part (Handling Authentication but Not Keeping (Private) Keys)
 * Improve Error Handling
