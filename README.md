@@ -38,7 +38,7 @@ Please find more about application's architecture at its [Architecture Page](Arc
 * Develop "Standalone" UI `IN PROGRESS`
 ## Stage 2: Distributed Media Support
 * Develop Storing Image(s) and Data for Rental Property to IPFS `PENDING`
-## Stage 3: Distributed Media Support
+## Stage 3: Client-side Wallet Stored to a Remote Storage
 * Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox) `PENDING`
 ## Stage 4: Time-based Oracles
 * Develop Time-based Contract Termination (Oraclize) `PENDING`
