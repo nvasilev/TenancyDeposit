@@ -39,7 +39,7 @@ Please find more about application's architecture at its [Architecture Page](Arc
 ## Stage 2: Distributed Media Support
 * Develop Storing Image(s) and Data for Rental Property to IPFS `PENDING`
 ## Stage 3: Distributed Media Support
-* Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox)
+* Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox) `PENDING`
 ## Stage 4: Time-based Oracles
 * Develop Time-based Contract Termination (Oraclize) `PENDING`
 ## Stage 5: Security (Server Authentication) and UI Actor Segregation
