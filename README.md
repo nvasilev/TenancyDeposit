@@ -30,3 +30,35 @@ Please find more about application's architecture at its [Architecture Page](Arc
 * Tenancy Deposit Server Side
 * Tenancy Deposit IPFS
 * Tenancy Deposit Oraclize
+
+# Delivery Plan
+## Stage 1: Contract & Contract Tests & UI (MVP)
+1. Develop Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/contracts/TenancyDeposit.sol)
+2. Develop Truffle Tests for Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/test/TestTenancyDeposit.js)
+3. Develop "Standalone" UI `IN PROGRESS`
+## Stage 2: Distributed Media Support
+4. Develop Storing Image(s) and Data for Rental Property at IPFS `PENDING`
+## Stage 3: Time-based Oracles
+5. Develop Time-based Contract Termination (Oraclize) `PENDING`
+## Stage 4: Security (Server Authentication) and UI Actor Segregation
+6. Improve Error Handling `PENDING`
+7. Develop Sever Part `PENDING`
+8. Integrate Server Part with UI (not "Standalone" anymore) `PENDING`
+## Stage 5: Server Integration with IPFS
+9. Integrate Server Part with IPFS Storage (step 4) `PENDING`
+## Stage 6: Multiple Tenants
+10. Introduce Multiple Tenants `PENDING`
+## Stage 7: Monthly Rent Payment
+11. Introduce Monthly Rent Payment `PENDING`
+## Stage 8: Improving UI
+12. Rewrite UI Using Contemporary Framework (React/Angular?) `PENDING`
+
+# Future Work
+* Storing Image(s) and Data (JSON) for Rental Property at IPFS
+* Time-based Contract Termination (Oraclize)
+* Develop Sever Part (Handling Authentication but Not Keeping (Private) Keys)
+* Improve Error Handling
+* Integrate Server Part with IPFS Storage (step 4) and UI (not anymore "Standalone")
+* Introduce Multiple Tenants
+* Introduce Monthly Rent Payment
+* Rewrite UI Using Contemporary Framework (React/Angular?)
