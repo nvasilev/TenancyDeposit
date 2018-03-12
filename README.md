@@ -36,26 +36,33 @@ Please find more about application's architecture at its [Architecture Page](Arc
 * Develop Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/contracts/TenancyDeposit.sol)
 * Develop Truffle Tests for Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/test/TestTenancyDeposit.js)
 * Develop "Standalone" UI `IN PROGRESS`
-## Stage 2: Distributed Media Support
+## Stage 2: Improve Usability and Flexibility
+* Add splash screen `PENDING`
+* Add error handling `PENDING`
+* Add support for compiling contract on the fly `PENDING`
+## Stage 3: Distributed Media Support
 * Develop Storing Image(s) and Data for Rental Property to IPFS `PENDING`
-## Stage 3: Client-side Wallet Stored to a Remote Storage
+## Stage 4: Client-side Wallet Stored to a Remote Storage
 * Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox) `PENDING`
-## Stage 4: Time-based Oracles
+## Stage 5: Time-based Oracles
 * Develop Time-based Contract Termination (Oraclize) `PENDING`
-## Stage 5: Security (Server Authentication) and UI Actor Segregation
+## Stage 6: Security (Server Authentication) and UI Actor Segregation
 * Improve Error Handling `PENDING`
 * Develop Sever Part `PENDING`
 * Integrate Server Part with UI (not "Standalone" anymore) `PENDING`
-## Stage 6: Server Integration with IPFS
+## Stage 7: Server Integration with IPFS
 * Integrate Server Part with IPFS Storage (step 4) `PENDING`
-## Stage 7: Multiple Tenants
+## Stage 8: Multiple Tenants
 * Introduce Multiple Tenants `PENDING`
-## Stage 8: Monthly Rent Payment
+## Stage 9: Monthly Rent Payment
 * Introduce Monthly Rent Payment `PENDING`
-## Stage 9: Improving UI
+## Stage 10: Improving UI
 * Rewrite UI Using Contemporary Framework (React/Angular?) `PENDING`
 
 # Future Work
+* Splash Screen while Waiting on Transaction Execution
+* Support for compiling contract on the fly
+* Add Error Handling
 * Storing Image(s) and Data (JSON) for Rental Property to IPFS
 * Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox) 
 * Time-based Contract Termination (Oraclize)
