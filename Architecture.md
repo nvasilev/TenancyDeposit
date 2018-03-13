@@ -4,10 +4,10 @@ This page contains Tenancy Deposit DApp HLA diagrams.
 
 ## High Level Architecture
 
-## Present
+### Present
 ![Tenancy Deposit DApp Architecture](diagrams/TenancyDepositDApp-Architecture.png?raw=true "Tenancy Deposit DApp Architecture")
 
-## Future
+### Future
 `TBA`
 
 ## Contract State Machine
