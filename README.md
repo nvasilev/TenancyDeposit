@@ -1,6 +1,8 @@
 # TenancyDeposit
 Welcome to the "Tenancy Deposit" DApp. This distributed app runs on the Etherereum blockchain network and holds a tenancy deposit as a Solidity smart contract.
 
+You could explore the application on the following URL: [`http://tenancy-deposit-dapp.nvasilev.com`](tenancy-deposit-dapp.nvasilev.com)
+
 # Description
 Tenancy Deposit DApp keeps a tenant's deposit in an account separate of landlord's one during the renting period and returns it after the tenancy contract terminates.
 In case of a dispute between the two parties over the size of the deduction the landlord claims, an arbiter resolves it.
@@ -22,7 +24,13 @@ An arbiter could:
 * rule a deduction amount in favour of the landlord in case of a dispute</li>
 
 # Architecture
-Please find more about application's architecture at its [Architecture Page](Architecture.md).
+
+## High Level Architecture
+
+![Tenancy Deposit DApp Architecture](diagrams/TenancyDepositDApp-Architecture.png?raw=true "Tenancy Deposit DApp Architecture")
+
+## Contract State Machine
+![Tenancy Deposit Contract State Machine](diagrams/TenancyDepositDApp-StateMachine.png?raw=true "Tenancy Deposit Contract State Machine")
 
 # Repositories:
 * [Tenancy Deposit Solidity](https://github.com/nvasilev/tenancy-deposit-sol)
@@ -31,35 +39,10 @@ Please find more about application's architecture at its [Architecture Page](Arc
 * Tenancy Deposit IPFS
 * Tenancy Deposit Oraclize
 
-# Delivery Plan
-## Stage 1: Contract & Contract Tests & UI (MVP)
-* Develop Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/contracts/TenancyDeposit.sol)
-* Develop Truffle Tests for Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/test/TestTenancyDeposit.js)
-* Develop "Standalone" UI `IN PROGRESS`
-## Stage 2: Improve Usability and Flexibility
-* Add splash screen `PENDING`
-* Add error handling `PENDING`
-* Add support for compiling contract on the fly `PENDING`
-## Stage 3: Distributed Media Support
-* Develop Storing Image(s) and Data for Rental Property to IPFS `PENDING`
-## Stage 4: Client-side Wallet Stored to a Remote Storage
-* Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox) `PENDING`
-## Stage 5: Time-based Oracles
-* Develop Time-based Contract Termination (Oraclize) `PENDING`
-## Stage 6: Security (Server Authentication) and UI Actor Segregation
-* Improve Error Handling `PENDING`
-* Develop Sever Part `PENDING`
-* Integrate Server Part with UI (not "Standalone" anymore) `PENDING`
-## Stage 7: Server Integration with IPFS
-* Integrate Server Part with IPFS Storage (step 4) `PENDING`
-## Stage 8: Multiple Tenants
-* Introduce Multiple Tenants `PENDING`
-## Stage 9: Monthly Rent Payment
-* Introduce Monthly Rent Payment `PENDING`
-## Stage 10: Improving UI
-* Rewrite UI Using Contemporary Framework (React/Angular?) `PENDING`
-
 # Future Work
+
+![Tenancy Deposit DApp Future Architecture](diagrams/TenancyDepositDApp-Future-Architecture.png?raw=true "Tenancy Deposit DApp (Future) Architecture")
+
 * Splash Screen while Waiting on Transaction Execution
 * Support for compiling contract on the fly
 * Add Error Handling
@@ -72,3 +55,42 @@ Please find more about application's architecture at its [Architecture Page](Arc
 * Introduce Multiple Tenants
 * Introduce Monthly Rent Payment
 * Rewrite UI Using Contemporary Framework (React/Angular?)
+
+# Delivery Plan
+
+## Stage 1: Contract & Contract Tests & UI (MVP)
+* Develop Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/contracts/TenancyDeposit.sol)
+* Develop Truffle Tests for Solidity Contract [`DONE`](https://github.com/nvasilev/tenancy-deposit-sol/blob/master/test/TestTenancyDeposit.js)
+* Develop "Standalone" UI [`DONE`](https://github.com/nvasilev/tenancy-deposit-client)
+
+## Stage 2: Improve Usability and Flexibility
+* Add splash screen `PENDING`
+* Add error handling `PENDING`
+* Add support for compiling contract on the fly `PENDING`
+
+## Stage 3: Distributed Media Support
+* Develop Storing Image(s) and Data for Rental Property to IPFS `PENDING`
+
+## Stage 4: Client-side Wallet Stored to a Remote Storage
+* Wallet JSON Stored to a Remote Client-Owned Storage (Storj/Dropbox) `PENDING`
+
+## Stage 5: Time-based Oracles
+* Develop Time-based Contract Termination (Oraclize) `PENDING`
+
+## Stage 6: Security (Server Authentication) and UI Actor Segregation
+* Improve Error Handling `PENDING`
+* Develop Sever Part `PENDING`
+* Integrate Server Part with UI (not "Standalone" anymore) `PENDING`
+
+## Stage 7: Server Integration with IPFS
+* Integrate Server Part with IPFS Storage (step 4) `PENDING`
+
+## Stage 8: Multiple Tenants
+* Introduce Multiple Tenants `PENDING`
+
+## Stage 9: Monthly Rent Payment
+* Introduce Monthly Rent Payment `PENDING`
+
+## Stage 10: Improving UI
+* Rewrite UI Using Contemporary Framework (React/Angular?) `PENDING`
+
