@@ -2,8 +2,13 @@
 
 This page contains Tenancy Deposit DApp HLA diagrams.
 
-## Tenancy Deposit DApp Architecture
+## High Level Architecture
+
+## Present
 ![Tenancy Deposit DApp Architecture](diagrams/TenancyDepositDApp-Architecture.png?raw=true "Tenancy Deposit DApp Architecture")
 
-## Tenancy Deposit Contract State Machine
+## Future
+`TBA`
+
+## Contract State Machine
 ![Tenancy Deposit Contract State Machine](diagrams/TenancyDepositDApp-StateMachine.png?raw=true "Tenancy Deposit Contract State Machine")
