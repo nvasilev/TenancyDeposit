@@ -1,5 +1,5 @@
-# TenancyDeposit
-Welcome to the "Tenancy Deposit" DApp. This distributed app runs on the Etherereum blockchain network and holds a tenancy deposit as a Solidity smart contract.
+# Tenancy Deposit DApp
+Welcome to the `Tenancy Deposit DApp`. This distributed app runs on the Etherereum blockchain network and holds a tenancy deposit as a Solidity smart contract.
 
 You could find the application live on the following URL: [`http://tenancy-deposit-dapp.nvasilev.com`](http://tenancy-deposit-dapp.nvasilev.com)
 
